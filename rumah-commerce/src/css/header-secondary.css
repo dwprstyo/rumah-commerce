@@ -1,0 +1,50 @@
+.header-secondary {
+  font-family: "Roboto";
+  font-size: 11px;
+  font-weight: 500;
+  color: white;
+  background-color: #254993;
+  width: 100%;
+  margin: 0;
+  margin-left: 0;
+  height: 40px;
+  align-items: center;
+}
+
+.hs-text {
+  opacity: 0.7;
+}
+
+.hs-text:hover {
+  opacity: 1;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#dropdown-basic-button {
+  /* Your custom styles here */
+  background-color: #254993;
+  color: white;
+  border: #254993;
+  opacity: 0.7;
+  font-family: "Roboto";
+  font-size: 11px;
+  font-weight: 500;
+  padding: 0;
+  /* Add more styles as needed */
+}
+
+#dropdown-basic-button:hover {
+  opacity: 1;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.dropdown-item {
+  font-family: "Roboto";
+  font-size: 11px;
+  font-weight: 500;
+  background-color: white;
+}
+
+
