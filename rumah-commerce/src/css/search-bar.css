@@ -1,0 +1,81 @@
+.search-bar {
+  background-color: rgba(41, 81, 163, 0.9);
+  border-radius: 8px;
+
+  font-family: "Roboto";
+  font-size: 23px;
+  font-weight: 400;
+  color: white;
+}
+.search-wrap{
+    width: 50vw;
+    min-width: 500px;
+}
+.tab-text {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  opacity: 0.7;
+}
+
+.tab-text:hover {
+  opacity: 1;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  background-color: white;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  border-radius: 5px;
+  width: 47vw;
+  height: 50px;
+  min-width: 470px;
+}
+.search-icon {
+  margin-right: 5px;
+}
+.search-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 5px;
+}
+.search-input::placeholder {
+    color: #999; /* Warna placeholder */
+    font-size: 18px;
+}
+.search-button {
+  border: none;
+  background-color: #2951a3;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  height: 30px;
+  width: 5vw;
+  min-width: 80px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-button:hover {
+  border: none;
+  background-color: #214b9e;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  height: 30px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}

@@ -1,32 +1,21 @@
 import React from "react";
+import { Carrousel } from "../components/home/Carrousel";
+import { SearchBar } from "../components/home/SearchBar";
+import { CardMenu } from "../components/home/CardMenu";
 
-import Carousel from 'react-bootstrap/Carousel';
+
 
 export const Home = () => {
   return (
-    <div>
-      <Carousel>
-        <Carousel.Item interval={1000}>
-          <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item interval={500}>
-          <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
-          </Carousel.Caption>
-        </Carousel.Item>
-      </Carousel>
+    <div className="position-relative">
+      <div
+        className="position-relative"
+        style={{ marginBottom: "120px" }}
+      >
+        <Carrousel />
+        <SearchBar />
+      </div>
+      <CardMenu />
     </div>
   );
 };

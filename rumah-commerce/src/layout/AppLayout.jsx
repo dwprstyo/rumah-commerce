@@ -11,7 +11,9 @@ export const AppLayout = () => {
       <Router>
         <HeaderSecondary />
         <HeaderPrimary />
-        <AppRouter />
+        <div className="mx-5 mt-0 mb-0">
+          <AppRouter />
+        </div>
         <Footer />
       </Router>
     </>
