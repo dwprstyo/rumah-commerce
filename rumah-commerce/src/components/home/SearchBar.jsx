@@ -24,16 +24,16 @@ export const SearchBar = () => {
             </div>
             <div className="row">
               <div className="col d-flex justify-content-center">
-                <form class="search-form">
-                  <div class="search-icon">
+                <form className="search-form">
+                  <div className="search-icon">
                     <img src={SearchIcon} alt="Search Icon" width="20" />
                   </div>
                   <input
                     type="text"
-                    class="search-input"
+                    className="search-input"
                     placeholder="Lokasi, keyword, area, project, developer"
                   />
-                  <button type="submit" class="search-button">
+                  <button type="submit" className="search-button">
                     Cari
                   </button>
                 </form>

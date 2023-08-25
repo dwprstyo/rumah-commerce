@@ -6,7 +6,7 @@ import "../../css/card-menu.css";
 export const CardMenu = () => {
   return (
     <>
-      <div className="position-relative d-none d-lg-grid">
+      <div className="position-relative d-none d-lg-grid mb-4">
         <div className="row row-cols-8">
           <div className="col">
             <div className="card-menu">

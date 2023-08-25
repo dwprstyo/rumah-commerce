@@ -1,0 +1,29 @@
+.width-control {
+  width: 93vw;
+}
+
+.carousels {
+  display: grid;
+  grid-auto-flow: column;
+  scroll-behavior: auto;
+  gap: 10px;
+  overflow-y: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+
+.carousels::-webkit-scrollbar {
+  display: none;
+}
+
+.slider-image {
+  scroll-snap-align: start;
+  display: flex;
+  cursor: pointer;
+}
+
+.image-onslide {
+  width: 38vw;
+  border-radius: 10px;
+}

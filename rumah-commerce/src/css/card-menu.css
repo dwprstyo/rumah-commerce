@@ -8,9 +8,9 @@
     gap: 10px;
     border-radius: 8px;
     padding: 6px;
-    box-shadow: 1px 1px 6px
+    box-shadow: 1px 1px 6px rgb(216, 216, 216)
 }
 .card-menu:hover {
     cursor: pointer;
-    box-shadow: 1px 1px 8px
+    box-shadow: 1px 1px 8px rgb(172, 172, 172)
 }
